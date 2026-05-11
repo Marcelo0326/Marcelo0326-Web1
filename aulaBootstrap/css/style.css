@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #21e724;
+  color: #ffffff;
+}
+
+.topo {
+  background: linear-gradient(135deg, #5bd6f5, #21e724);
+  color: #ffffff;
+}
+
+.menu-principal {
+  background: rgba(20, 148, 217, 0.2); 
+}
+
+.titulo-secao {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.imagem-carrossel {
+  height: 500px;
+  object-fit: cover;
+}
+
+.card-galeria {
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(237, 239, 244, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0;
+}
+
+.card-galeria img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+.card-galeria figcaption {
+  padding: 1rem;
+  text-align: center;
+  font-weight: 600;
+  background: #16bce5;
+  color: #ffffff;
+}
+
+.card-galeria:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.14);
+}
+
+.tabela-personalizada {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.card-form {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.rodape {
+  background: #111827;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.btn-primary {
+  background: #2563eb;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .imagem-carrossel {
+    height: 280px;
+  }
+}
