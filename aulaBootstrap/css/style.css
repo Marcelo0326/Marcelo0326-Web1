@@ -5,7 +5,10 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: #21e724;
+  background-image: url('../img/fundo-site.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
 }
 
@@ -54,6 +57,23 @@ body {
 .card-galeria:hover {
   transform: translateY(-8px);
   box-shadow: 0 18px 35px rgba(15, 23, 42, 0.14);
+}
+.card-img-overlay{
+  opacity: 0 !important;
+  transition: opacity 0.5s ease !important;
+  pointer-events: none !important;
+}
+.card-galeria:hover .card-img-overlay {
+  opacity: 1 !important;
+  background:#054656d2!important;
+  color: rgb(255, 255, 255)!important;
+  pointer-events: auto !important;
+}
+.p-card{
+  display: flex;
+  align-items: center;  
+  
+  height: 100%;
 }
 
 .tabela-personalizada {
