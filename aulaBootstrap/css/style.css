@@ -75,16 +75,18 @@ body {
   
   height: 100%;
 }
-
+.tabela{
+  background-color: #111827 !important;
+}
 .tabela-personalizada {
-  background: #ffffff;
+  background: #ffffff !important;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 10px 25px #ffffff62;
 }
 
 .card-form {
-  background: #ffffff;
+  background: #16bce562;
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
 }
@@ -109,7 +111,11 @@ body {
   border-radius: 12px;
   padding: 0.85rem 1rem;
 }
-
+a.instagram {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #ffffff !important;
+}
 @media (max-width: 768px) {
   .imagem-carrossel {
     height: 280px;
